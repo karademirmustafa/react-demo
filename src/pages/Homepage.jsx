@@ -29,7 +29,7 @@ setCityTemp(cityData.data)
 
 <TurkeyMap showTooltip={true} showSubTitle={true} showTitle={true} onClick={handleCityClick} />
 
-{cityTemp?.city?.name} - {(cityTemp?.list?.length > 0 ?  cityTemp?.list[0]?.main?.temp-273 : null)}
+{cityTemp?.city?.name} : {(cityTemp?.list?.length > 0 ?  cityTemp?.list[0]?.main?.temp-273 : null)}
 
 
     </div>
